@@ -1,5 +1,5 @@
 pipeline {
-    // Basic Jenkins Pipeline
+    // Basic Jenkins Pipeline testing
     agent any
 
     stages {
