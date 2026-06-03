@@ -6,6 +6,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'testing and Building... testing!!!'
+                sh "docker build -t jenkinstesting:latest ./front-end"
                 // Add your build commands here
             }
         }
